@@ -1,0 +1,12 @@
+body {
+	background: #FFC726;
+}
+
+.burger, .diner {
+	background: #CCC;
+}
+
+.devoured {
+	background: #aaa;
+	color: #fff;
+}

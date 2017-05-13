@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+		<link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
+		<title>Eat Da Burger!</title>
+		<!-- css links -->
+		<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/styles.css">
+		<!-- jquery and bootstrap js files -->
+		<script src="https://code.jquery.com/jquery.js"></script>	
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class='container'>
+			<div class='row'>
+				<div class='text-center'>
+					<img src='images/burger.png' width='250'>
+					<h1>Eat Da Burger!</h1>
+				</div>
+			</div>
+			<div class='row'>
+				{{{ body }}}
+			</div>
+			<br>
+			<div class='row'>
+				<form action='/' method='POST'>
+					<div class="form-group">
+						<input placeholder="Diner Name" type="text" class="form-control" name='diner_name'>
+						<input placeholder="Burger Name" type="text" class="form-control" name='burger_name'>
+						<button type="submit" class="btn btn-primary submit">Submit</button>
+					</div>
+				</form>
+		 	</div>
+		</div>
+
+
+		<!-- js file -->
+		<script src='css/script.js'></script>
+	</body>
+</html>
